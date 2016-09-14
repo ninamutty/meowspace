@@ -1,0 +1,185 @@
+
+/* Positioning the Header Elements*/
+header {
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+}
+
+header h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 2rem;
+    position: relative;
+    width: 60%;
+    display: inline-block;
+    margin-left: 15%;
+}
+
+header nav {
+    display: inline-block;
+    width: 20%;
+    background-color: red;
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+
+/* Positioning the top-cats elements*/
+.top-cats {
+    background-color: lavender;
+    position: fixed;
+    width: 20%;
+    right: 2%;
+    top: 100px;
+    text-align: center;
+    z-index: 40;
+}
+
+.top-cats section {
+    background-color: gray;
+}
+
+.top-cats h3 {
+    margin: 2% 0 2% 11%;
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+}
+
+.top-cats section img {
+    background-color: orange;
+    border-radius: 100px;
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.top-cats section p {
+    background-color: orange;
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+    margin-left: 2%;
+}
+/* Positioning the top-cats elements ^^ */
+
+
+
+/* Positioning the Main article elements*/
+
+main {
+    width: 77%;
+    background-color: moccasin;
+    position: relative;
+    margin-top: 100px;
+}
+
+.main-title {
+    background-color: lightgray;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: arial;
+}
+
+.blog-post {
+    background-color: salmon;
+    margin: 3%;
+}
+
+.blog-post * {
+    margin-left: 0.5%;
+}
+
+.blog-header {
+    background-color: lightpink;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.blog-header p:last-child {
+    padding-bottom: 2%;
+}
+
+.blog-header h2:first-child {
+    margin-top: 0;
+    padding-top: 2%;
+    font-family: courier;
+    font-size: 2rem;
+}
+
+.blog-post section {
+    padding-bottom: 2%;
+    font-family: cursive;
+    font-size: 1rem;
+}
+/* Positioning the Main article elements ^^^ */
+
+
+/* Positioning the footer elements*/
+footer {
+    background-color: rosybrown;
+    text-align: center;
+    margin: 0;
+}
+
+footer * {
+    margin: 0;
+    width: 100%;
+}
+
+footer h4 {
+    padding-top: 1%;
+    font-size: 1rem;
+}
+
+#disclaimer {
+    padding: .5% 1%;
+    font-size: .75rem;
+}
+
+footer nav {
+    width: 40%;
+    text-align: center;
+    padding-bottom: 1%;
+    margin: auto;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: .5% 0;
+}
+footer nav ul li {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    color: yellow;
+}
+
+a:visted {
+    color: white;
+    text-decoration: none;
+}
