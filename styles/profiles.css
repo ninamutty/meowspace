@@ -1,0 +1,199 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
+body {
+    background-color: moccasin;
+    width: 100%;
+}
+
+/* Positioning the Header Elements*/
+header {
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+    padding: 40px 0;
+    margin: 0;
+    left: 0;
+}
+
+header h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 4rem;
+    position: relative;
+    width: 75%;
+    display: inline-block;
+    left: 8%;
+    padding: 0;
+    margin: 0;
+}
+
+
+header nav {
+    display: inline-block;
+    width: 20%;
+    background-color: red;
+    margin: auto;
+    padding: 1% 0;
+    right: 7%;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 1% 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    font-size: 1rem;
+}
+
+section {
+  position: relative;
+  margin-top: 160px;
+  width: 100%;
+}
+
+section h1 {
+  font-size: 3rem;
+  text-align: center;
+  background-image: url(http://placebear.com/g/400/200);
+  padding: 100px 0;
+  position: relative;
+  font-family: 'Lobster';
+  color: white;
+}
+
+section p {
+  background-color: lightgray;
+  font-size: 1.2rem;
+  padding: 12px 0;
+  text-align: center;
+  position: relative;
+}
+
+section img {
+  position: absolute;
+  z-index: 30;
+  border-radius: 100px;
+  top: 110px;
+  left: 9%;
+  height: auto;
+  width: 14%;
+  border: 1px solid lightgray;
+}
+
+
+main {
+  position: relative;
+}
+
+main h2 {
+  font-size: 2rem;
+  position: relative;
+  width: auto;
+  margin-left: 9%;
+  margin-top: 50px;
+}
+
+.post-boxes {
+  width: 80%;
+  margin: 2% 8%;
+  background-color: lightblue;
+}
+
+.post-boxes article {
+  background-color: mistyrose;
+  display: inline-block;
+  margin: 2%;
+  width: 25%;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  text-align: left;
+  padding: 2%;
+}
+
+.post-boxes article h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Positioning the footer elements*/
+footer {
+    background-color: rosybrown;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+footer * {
+    margin: 0;
+    width: 100%;
+}
+
+footer h4 {
+    padding-top: 1%;
+    font-size: 1rem;
+}
+
+#disclaimer {
+    padding: .5% 2%;
+    font-size: .75rem;
+    margin-left: 10%;
+    width: 80%;
+}
+
+footer nav {
+    width: 40%;
+    text-align: center;
+    padding-bottom: 1%;
+    margin: auto;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: .5% 0;
+}
+footer nav ul li {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    font-size: 1rem;
+}
+
+
+
+a {
+    color: yellow;
+}
+
+
+a:visted {
+    color: white;
+    text-decoration: none;
+}
